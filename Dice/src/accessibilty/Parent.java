@@ -1,5 +1,12 @@
 package accessibilty;
 
 public class Parent {
-m1 m2//instance methods so create objects in child
+void m1()
+{
 }
+void m2()
+{
+}
+//instance methods so create objects in child
+}
+
