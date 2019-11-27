@@ -11,7 +11,7 @@ public class Hashmap {
 HashMap<Integer,String> hm=new HashMap<Integer,String>();
 hm.put(1, "Ram");
 hm.put(2, "Sam");
-System.out.println(hm);
+System.out.println(hm);//hjkdlhthy
 //duplicates value allowed
 hm.put(3, "Ram");
 //duplicates keys wont allow

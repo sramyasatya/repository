@@ -222,41 +222,42 @@ System.out.println("v3 :"+v3);
 
 		hs1.add("Eswar");
 		System.out.println(hs1);
-
+	}
+}
 		
-		HashSet hs2=hs1;
-		System.out.println(hs1.size());
-		System.out.println(hs1.equals(hs2));
-		Object[] str = hs1.toArray();
-		System.out.println(str[0]);
+//		HashSet hs2=hs1;
+//		System.out.println(hs1.size());
+//		System.out.println(hs1.equals(hs2));
+//		//Object[] str = hs1.toArray();
+		//System.out.println(str[0]);
 //		for(Object s:str)
 //		{
 //			System.out.println(s);
 //		}
-		System.out.println(str[1]);
-//		String[] str1 = (String[])hs1.toArray();
-		
-		System.out.println(hs1.hashCode());
-		System.out.println(hs2.hashCode());
-		System.out.println(hs1.toString());
-//		Iterator itr=hs1.iterator();
+//		System.out.println(str[1]);
+////		String[] str1 = (String[])hs1.toArray();
+//		
+//		System.out.println(hs1.hashCode());
+//		System.out.println(hs2.hashCode());
+//		System.out.println(hs1.toString());
+////		Iterator itr=hs1.iterator();
+////		while(itr.hasNext())
+//		{
+//			System.out.println(itr.next());
+//		}
+//		ListIterator<String> itr=str.listIterator();
 //		while(itr.hasNext())
 //		{
 //			System.out.println(itr.next());
 //		}
-		ListIterator<String> itr=str.listIterator();
-		while(itr.hasNext())
-		{
-			System.out.println(itr.next());
-		}
-		System.out.println();
-		while(itr.hasPrevious())
-		{
-			System.out.println(itr.previous());
-		}
-	}
-}
-		
+//		System.out.println();
+//		while(itr.hasPrevious())
+//		{
+//			System.out.println(itr.previous());
+//		}
+//	}
+//}
+//		
 //		LinkedHashSet<String> linkedset = new LinkedHashSet<String>(); 
 //		linkedset.add("A");   
 //        linkedset.add("B");   
